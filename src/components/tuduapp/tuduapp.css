@@ -1,0 +1,58 @@
+body {
+    margin: 0;
+    background-color: #31613e;
+    font-family: sans-serif;
+}
+.tudu-container{
+    
+    width: 350px;
+    margin: auto;
+    margin-top: 30px;
+    text-align: center;
+}
+h1{
+    margin: 0;
+    margin-bottom: 15px;
+    color:#22843e96;
+}
+.input-section {
+    background-color: #265433;
+    padding: 18px;
+    border-radius: 10px;
+    box-shadow:-3px -3px 8px #0000008c;
+}
+input::placeholder{
+    color: #22843e96;
+}
+
+.input-section input{
+    color: #22843e96;
+    border-radius: 4px;
+    border: 1px solid #22843e42;
+    width: 100%;
+    padding: 10px;
+    background-color: #265433;
+    box-sizing: border-box;
+    outline: none;
+}
+ul{
+    text-align: left;
+    padding: 0%;
+}
+ul li{
+    list-style: none;
+    background-color: #265433;
+    padding: 15px;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    color: #22843e96;
+    box-shadow: -3px -3px 8px #0000008c;
+    display: flex;
+}
+ul li h6 {
+    text-align: right;
+    flex: 1;
+    padding: 0;
+    margin: 0;
+    cursor: pointer;
+}
